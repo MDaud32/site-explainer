@@ -178,12 +178,12 @@ const Home: NextPage = () => {
   }
   return (
     <div className="dark:bg-[#111a31] bg-gray-50">
-      <div className="w-full">
-        <div className="w-full md:text-md text-xs bg-[#7721c1] text-center hover:cursor-pointer font-semibold text-white h-6 items-center z-10">
+      <div className="">
+        <div className="w-full md:text-lg text-xs bg-[#7721c1] text-center hover:cursor-pointer font-semibold text-white h-8 items-center z-10">
           Build by @michael_chomsky & Sponsored By{" "}
           <a
             href="mailto: contact@siteexplainer.com"
-            className="text-white hover:cursor-pointer underline md:text-xl w-full">
+            className="text-white hover:cursor-pointer underline md:text-xl text-md w-full">
             [your product Name]
           </a>
           👍
@@ -237,11 +237,11 @@ const Home: NextPage = () => {
             <div className="flex mt-10 items-center space-x-3 ">
               <div
                 className={
-                  "dark:bg-gray-600 rounded-full p-1 mt-1 bg-gray-200 "
+                  "dark:bg-gray-600 rounded-full p-1 mt-1 bg-gray-200 items-center"
                 }>
                 <RiNumber1 className={""} />
               </div>
-              <p className="text-left font-medium">
+              <p className="text-left items-center font-medium ">
                 confusing website url{" "}
                 <span className="text-slate-500">
                   {/* (or any blog or article you want summarized!) */}
